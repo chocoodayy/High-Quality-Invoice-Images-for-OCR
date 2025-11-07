@@ -47,7 +47,7 @@ foodpanda-analytics/
 
 ## 🎯 Nhiệm Vụ Chi Tiết
 
-### 👨‍💼 Người 1 – Data Engineer (Trưởng nhóm)
+### 👨‍💼 Nguyễn Thái Bảo – Data Engineer (Trưởng nhóm)
 - Thu thập dataset từ Kaggle và kiểm tra chất lượng dữ liệu ban đầu
 - Thiết kế và tạo database schema (`sql/schema.sql`)
 - Viết script import dữ liệu vào MySQL (`src/import_to_sql.py`, `src/config.py`)
