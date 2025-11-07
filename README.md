@@ -28,6 +28,9 @@ foodpanda-analytics/
 ├── src/
 │   ├── import_to_sql.py          # 👨‍💼 Người 1
 │   ├── config.py                 # 👨‍💼 Người 1
+│   ├── setup_database.py         # 👨‍💼 Người 1
+│   ├── check_database.py         # 👨‍💼 Người 1
+│   ├── README.md                 # 👨‍💼 Người 1
 │   ├── data_cleaning.ipynb       # 🧹 Người 2
 │   ├── analysis.ipynb            # 📊 Người 3
 │   └── visualization.ipynb       # 📈 Người 4
@@ -38,8 +41,7 @@ foodpanda-analytics/
 │   └── README.md                 # 👨‍💼 Người 1
 │
 ├── reports/
-│   ├── analysis_report.md        # 📝 Người 5
-│   └── presentation.pptx         # 📝 Người 5
+│   └── analysis_report.md        # 📝 Người 5
 │
 ├── README.md                      # 📝 Người 5
 └── requirements.txt               # 👨‍💼 Người 1
@@ -47,14 +49,16 @@ foodpanda-analytics/
 
 ## 🎯 Nhiệm Vụ Chi Tiết
 
-### 👨‍💼 Nguyễn Thái Bảo – Data Engineer (Trưởng nhóm)
+### 👨‍💼 Người 1 – Data Engineer (Trưởng nhóm)
 - Thu thập dataset từ Kaggle và kiểm tra chất lượng dữ liệu ban đầu
 - Thiết kế và tạo database schema (`sql/schema.sql`)
 - Viết script import dữ liệu vào MySQL (`src/import_to_sql.py`, `src/config.py`)
+- Tạo script setup database tự động (`src/setup_database.py`)
+- Tạo script kiểm tra database (`src/check_database.py`)
 - Tạo các SQL queries để extract dữ liệu (`sql/queries.sql`)
 - Quản lý `requirements.txt` và dependencies
 - Setup và quản lý database infrastructure
-- Viết hướng dẫn database (`sql/README.md`)
+- Viết hướng dẫn database (`sql/README.md`, `src/README.md`)
 
 ### 🧹 Người 2 – Data Cleaning Specialist
 - Tiền xử lý và làm sạch dữ liệu (`src/data_cleaning.ipynb`)
@@ -84,7 +88,7 @@ foodpanda-analytics/
 ### 📝 Người 5 – Report & Documentation
 - Tổng hợp các kết quả từ các thành viên khác
 - Viết báo cáo phân tích tổng hợp (`reports/analysis_report.md`)
-- Chuẩn bị slides trình bày (`reports/presentation.pptx`)
+- Chuẩn bị slides trình bày (nếu cần)
 - Cập nhật và hoàn thiện README.md
 - Viết tài liệu hướng dẫn sử dụng
 - Tổng hợp và trình bày insights một cách logic và dễ hiểu
